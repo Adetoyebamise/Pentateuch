@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pentateuch</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgba(87, 117, 26, 0.514);
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+      .cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0;
+        background-color: rgb(56, 148, 56);
+        transform: skewX(1px);
+      }
+      .card-title-name-box {
+        background-color: rgb(56, 148, 56);
+        padding: 20px 0;
+      }
+      .card-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .major-container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .card-details-box {
+        margin-right: 20px;
+      }
+      .card-details {
+        background-color: #fff;
+        padding: 25px 0;
+        border-left: 1px solid rgb(149, 241, 87);
+        border-right: 1px solid rgb(149, 241, 87);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="major-container">
+      <h1>The pentateuch</h1>
+      <div class="cards-container">
+        {%TORAHCARDS%}
+      </div>
+    </div>
+  </body>
+  <script></script>
+</html>

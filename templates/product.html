@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Name /// The Pentateuch</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgba(87, 117, 26, 0.514);
+      }
+      h1 {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        background-color: transperent;
+      }
+      .major-container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .content-container {
+        background-color: transperent;
+        position: relative;
+      }
+      .torahlaw-container {
+        float: right;
+      }
+      .torah-details {
+        background-color: white;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px auto 20px;
+        padding: 10px;
+      }
+      .torah-name {
+        background-color: rgb(56, 148, 56);
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+      }
+      .torah-description {
+        background-color: rgb(56, 148, 56);
+        padding: 20px;
+      }
+      not-book-of-law {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="major-container">
+      <div class="header-one-container">
+        <h1>The Pentateuch</h1>
+      </div>
+      <figure class="torah">
+        <div class="content-container">
+          <div class="torahlaw-container not-book-of-law">
+            <h4>The book of the law</h4>
+          </div>
+          <a href="/overview" class="torah-back"> Back</a>
+          <h2 class="torah-name">Genesis</h2>
+          <div class="torah-details">
+            <p>Author : Moses</p>
+            <p>Number of Chapters : 50</p>
+          </div>
+          <p class="torah-description">
+            In the book of Genesis we have no legislation, and only one
+            prophetic passage; it is composed ssentially of histories. That
+            portion of the narrative which lies before the time of Abraham it is
+            improbable (no literary grounds) was the works of contemporaries,
+            though we cannot say it is impossible
+          </p>
+        </div>
+      </figure>
+    </div>
+  </body>
+</html>

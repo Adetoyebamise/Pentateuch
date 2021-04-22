@@ -1,0 +1,42 @@
+[
+  {
+    "id" : 0,
+    "bookName": "Genesis",
+    "calledTheBookOfTheLaw" : true ,
+    "author" : "Moses",
+    "numbersOfChapters" : 50 ,
+    "description" : "In the book of Genesis we have no legislation, and only one prophetic passage; it is composed ssentially of histories. That portion of the narrative which lies before the time of Abraham it is improbable (no literary grounds) was the works of contemporaries, though we cannot say it is impossible"
+  },
+  {
+    "id" : 1, 
+    "bookName": "Exodus",
+    "calledTheBookOfTheLaw" : true ,
+    "author" : "Moses",
+    "numbersOfChapters" : 25 ,
+    "description" : "The book of Exodus consists of history and legislation, the former somewhat preponderating. The wilderness between this land and the land of promise, the troubles, temptations and failings of the state of such life, the giving of the law to a new-born and emancipated people, the setting up of the ordinances of a holy religion, are all typical events, prefiguring others of a like nature, but of still grander and grander import."
+  },
+  {
+    "id" : 2,
+    "bookName": "Leviticus",
+    "calledTheBookOfTheLaw" : true ,
+    "author" : "Moses" ,
+    "numbersOfChapters" : 27 ,
+    "description" : "The book of Leviticus consists almost wholly of legislation; about three chapters only being occupied with narrative, and one with prophecy. The literary argument, owning to the absence of Egyptian words, is here somewhat less striking than in Exodus. This however, is amply compensated for by the fulness of evidence in regards to the law. " 
+  },
+  {
+    "id" : 3,
+    "bookName": "Number",
+    "calledTheBookOfTheLaw" : true,
+    "author" : "Moses" ,
+    "numbersOfChapters" : 36 ,
+    "description" : "The book of Numbers is occupied with narative and legislation, much interspersed, in about equal propotions, with some prophecy. The phraseology in one or two sections points to a time of composition which may be later than Moses, but need not to be later than Joshua "
+  },
+  {
+    "id" : 4,
+    "bookName": "Deteronomy",
+    "calledTheBookOfTheLaw" : true,
+    "author" : "Moses",
+    "numbersOfChapters" : 34 ,
+    "description" : "THe book of Deuteronomy is composed in the main of prophecy and legislation, in nearly equal parts, with a little narrative as setting. In both these departments the evidence of Mosaic date is very striking. The laws abound with references to Egypt and the wilderness journey, while they frequently speak of canaan as unpossessed."
+  }
+]
